@@ -1,0 +1,18 @@
+@startuml
+
+card "host:8080" as h
+card "currentuser:8084" as cu
+card "auth:8082" as a
+card "profile:8081" as p
+card "cards:8083" as cl
+
+a ..> cu
+h ..> a
+h ..> cl
+cl ..> cu
+h ..> p
+p ..> cu
+
+
+
+@enduml
