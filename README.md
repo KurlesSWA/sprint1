@@ -83,3 +83,6 @@ microfrontend
     └── webpack.config.js
 ```
 
+# Задание 2
+
+[Download](./sprint1.task2.drawio)
